@@ -1,2 +1,2 @@
 # Whitelist-Dapp
-Build a whitelist dApp for NFT Collection
+Build a whitelist dApp NFT Collection
