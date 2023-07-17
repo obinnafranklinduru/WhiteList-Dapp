@@ -21,7 +21,7 @@ The Whitelist project utilizes the following technologies:
 
 ### Frontend
 
-- Ether.js: A JavaScript library for interacting with the Ethereum blockchain.
+- Eitther.js: A JavaScript library for interacting with the Ethereum blockchain.
 - React: A JavaScript library for building user interfaces.
 - Next.js: A framework for building server-rendered React applications.
 
