@@ -1,17 +1,40 @@
-# Whitelist-Dapp
-Build a whitelist dApp NFT Collection
+# Whitelist Decentralised Application
 
-A whitelist is a mechanism that explicitly allows some identified addresses to access a particular privilege, service, mobility, or recognition.
+The Whitelist project consists of a smart contract written in Solidity and a frontend application that interacts with the smart contract.
 
+## Smart Contract - Whitelist
 
-Define the license and solidity compiler version.
+The Whitelist smart contract manages a list of whitelisted addresses. It allows adding addresses to the whitelist up to a specified maximum limit.
 
-- Define the contract Whitelist.
+## Frontend Application
 
-- Created a state variable (maxWhitelistedAddresses) to set the maximum number of addresses to be whitelisted.
+The frontend application provides a user interface for interacting with the Whitelist smart contract. It allows users to view the list of whitelisted addresses and add new addresses to the whitelist.
 
-- Created a constructor. The user will set the value in the state variable (maxWhitelistedAddresses) at the time of deployment.
+## Technologies Used
 
-- Created a state variable (numAddressesWhitelisted) to keep track of how many addresses have been whitelisted.
+The Whitelist project utilizes the following technologies:
 
-- Created a function (addAddressToWhitelist) to add the address of the sender to the whitelist and update the numAddressesWhitelisted variable. This function requires checking if the user has already been whitelisted and checking if we have reached the limit; if not, we throw an error.
+### Smart Contract
+
+- Solidity: The programming language used for writing the smart contract.
+- Ethereum: The blockchain platform on which the smart contract is deployed.
+
+### Frontend
+
+- Ether.js: A JavaScript library for interacting with the Ethereum blockchain.
+- React: A JavaScript library for building user interfaces.
+- Next.js: A framework for building server-rendered React applications.
+
+## How to Use
+
+1. Deploy the Whitelist smart contract and provide the necessary configuration parameters (e.g., maximum number of whitelisted addresses).
+2. Start the frontend application locally or deploy it to a web server.
+3. Interact with the frontend application to view the list of whitelisted addresses and add new addresses to the whitelist.
+
+## Contributions
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvement, please feel free to create a pull request or submit an issue on the project's repository.
+
+## License
+
+The code in this repository is licensed under the MIT License.
